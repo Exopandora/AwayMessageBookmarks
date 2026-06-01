@@ -1,0 +1,7 @@
+.ts-away-button-left {
+	width: 33%;
+}
+
+.ts-away-button-left ~ .ts-button-right {
+	width: 33%;
+}

@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "esbuild": "^0.28.0",
+    "esbuild-copy-static-files": "^0.1.0",
+    "typescript": "^6.0.3",
+    "zip-a-folder": "^6.1.1"
+  },
+  "scripts": {
+    "clean": "npx rimraf ./build",
+    "compile": "npm run clean && npx tsc",
+    "bundle": "npm run compile && node esbuild.mjs",
+    "bundle:debug": "cross-env DEBUG=true npm run bundle",
+    "build": "npm run bundle && node dist.mjs",
+    "build:debug": "cross-env DEBUG=true npm run build",
+    "test": "jest",
+    "test:coverage": "jest --collectCoverage=true"
+  }
+}

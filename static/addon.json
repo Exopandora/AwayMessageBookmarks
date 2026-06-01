@@ -1,0 +1,11 @@
+{
+	"id": "away_message_bookmarks",
+	"name": "Away Message Bookmarks",
+	"version": "1.0.0",
+	"inject": "index.html",
+	"injection_point": "HEAD",
+	"inject_at": "TAIL",
+	"sources": "amb/",
+	"installer": "^3.0.0",
+	"teamspeak": "6.0.0-beta4.1"
+}

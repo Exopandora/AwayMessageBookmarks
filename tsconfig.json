@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "checkJs": false,
+    "rootDir": "src",
+    "outDir": "build/compile",
+
+    "sourceMap": true,
+    "declaration": false,
+    "declarationMap": false,
+    "esModuleInterop": true
+  },
+  "include": ["src/AwayMessageBookmarks.ts"]
+}
