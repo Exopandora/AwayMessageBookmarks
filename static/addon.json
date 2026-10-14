@@ -7,5 +7,5 @@
 	"inject_at": "TAIL",
 	"sources": "amb/",
 	"installer": "^3.0.0",
-	"teamspeak": "6.0.0-beta4.1"
+	"teamspeak": "6.0.0-beta4.1 || 6.0.0-beta5"
 }
