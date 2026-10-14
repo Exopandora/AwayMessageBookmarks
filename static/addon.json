@@ -1,7 +1,7 @@
 {
 	"id": "away_message_bookmarks",
 	"name": "Away Message Bookmarks",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"inject": "index.html",
 	"injection_point": "HEAD",
 	"inject_at": "TAIL",
