@@ -15,5 +15,8 @@
     "build:debug": "cross-env DEBUG=true npm run build",
     "test": "jest",
     "test:coverage": "jest --collectCoverage=true"
+  },
+  "allowScripts": {
+    "esbuild": true
   }
 }
